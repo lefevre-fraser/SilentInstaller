@@ -1,0 +1,14 @@
+Help for "SilentInstall.exe"
+
+-path       Specifies path to file to be opened
+-file       file to be opened
+-install    install software (This is the default)
+-uninstall  uninstall software
+
+-help       Display this help section
+
+Examples:
+    SilentInstall.exe -path Stuff
+    SilentInstall.exe -path Stuff -uninstall
+    SilentInstall.exe -p Stuff -f SomeMSI.msi 
+    SilentInstall.exe -p Stuff -f SomeMSI.msi -u
